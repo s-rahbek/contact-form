@@ -1,0 +1,97 @@
+/* CONTACT PAGE */
+
+main {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+p {
+  font-weight: 100;
+}
+
+.section {
+  margin: 50px auto;
+}
+
+.row {
+  padding-bottom: 20px;
+}
+
+.btn {
+  color: #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn a {
+  padding: 10px 30px; 
+}
+
+.btn-submit-1 {
+  background-color: #a1c4fd;
+}
+.btn-submit-2 {
+  background-color: #fcb69f;
+}
+.btn-submit-3 {
+  background-color: #dba3e3;
+}
+.btn-submit-4 {
+  background-color: #92C462;
+}
+
+h6 {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.nav-pills .nav-link {
+  font-family: 'Roboto', sans-serif;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  max-width: 240px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #fff;
+}
+
+.nav-pills .nav-link-1.active, .nav-pills .show > .nav-link {
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  color: #000;
+}
+
+.nav-pills .nav-link-2.active, .nav-pills .show > .nav-link {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+  color: #000;
+}
+.nav-pills .nav-link-3.active, .nav-pills .show > .nav-link {
+  background-image: linear-gradient(to right, #dba3e3 0%, #e1b6fd 51%, #dba3e3 100%);
+  color: #000;
+}
+.nav-pills .nav-link-4.active, .nav-pills .show > .nav-link {
+  background-image: linear-gradient(to right, #DCFAC0 0%, #92C462 51%, #DCFAC0 100%);
+  color: #000;
+}
+
+#nav-pillContent .card-body {
+  padding: 2rem;
+  border-top: 1px solid #a1c4fd;
+  border-bottom: 1px solid #c2e9fb;
+  border-left: transparent;
+  border-right: #fff;
+  border-radius: 0%;
+  margin: 1rem 0;
+}
+
+#nav-pills .nav-link {
+  margin: 0.5rem auto 0;
+  padding: 1rem 2rem;
+}
